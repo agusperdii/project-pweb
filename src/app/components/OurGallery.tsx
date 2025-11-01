@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 export default function OurGallery() {
   const images = [
-    "/backgroundImg.png",
-    "/backgroundImg.png",
-    "/backgroundImg.png",
-    "/backgroundImg.png",
-    "/backgroundImg.png",
-    "/backgroundImg.png",
+    "/gal1.png",
+    "/gal2.png",
+    "/gal3.png",
+    "/gal2.png",
+    "/gal3.png",
+    "/gal1.png",
   ];
 
   const sectionVariants = {

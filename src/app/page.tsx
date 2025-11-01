@@ -12,13 +12,12 @@ export default function Home() {
     <div className="bg-zinc-50 font-sans dark:bg-black">
       <div className="flex flex-col">
         <Header />
-        <LandingPage />
-        <ManPage />
-        <WomanPage />
-        <EventMap />
-        <FormAbsen />
-        <OurGallery />
-      
+        <section id="landing"><LandingPage /></section>
+        <section id="man"><ManPage /></section>
+        <section id="woman"><WomanPage /></section>
+        <section id="event"><EventMap /></section>
+        <section id="form"><FormAbsen /></section>
+        <section id="gallery"><OurGallery /></section>
       </div>
     </div>
   );
