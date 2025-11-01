@@ -26,7 +26,7 @@ export default function Header() {
     <>
       {/* Top Header untuk layar medium ke atas */}
       <header
-        className={`hidden md:flex fixed left-1/2 transform -translate-x-1/2 transition-all duration-500 z-50 text-white
+        className={`hidden md:flex fixed left-1/2 transform -translate-x-1/2 transition-all duration-500 z-0 text-black
           ${
             isScrolled
               ? "px-6 py-4 top-8 w-full max-w-[800px] bg-[hsla(0,0%,60%,0.30)] backdrop-blur-md rounded-2xl shadow-lg"
