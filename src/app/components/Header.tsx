@@ -64,7 +64,7 @@ export default function Header() {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.id)}
-                className={`relative px-[1.5rem] py-[0.5rem] transition-all duration-300 rounded-xl 
+                className={`relative px-[1.5rem] py-[0.5rem] rounded-xl 
                   flex items-center space-x-2 ${
                     activeSection === item.name
                       ? "bg-[hsla(0,0%,80%,0.5)] backdrop-blur-2xl font-semibold"
