@@ -7,6 +7,8 @@ import EventMap from "./components/EventMap";
 import FormAbsen from "./components/FormAbsen";
 import OurGallery from "./components/OurGallery";
 
+import MusicSection from "./components/MusicSection";
+
 export default function Home() {
   return (
     <div className="bg-zinc-50 font-sans dark:bg-black">
@@ -18,6 +20,9 @@ export default function Home() {
         <section id="event"><EventMap /></section>
         <section id="form"><FormAbsen /></section>
         <section id="gallery"><OurGallery /></section>
+
+        {/* Section Lagu */}
+        <MusicSection />
       </div>
     </div>
   );

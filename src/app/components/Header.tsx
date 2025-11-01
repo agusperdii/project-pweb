@@ -50,10 +50,10 @@ export default function Header() {
     <>
       {/* Header desktop */}
       <header
-        className={`hidden md:flex fixed left-1/2 transform -translate-x-1/2 transition-all duration-500 z-50
+        className={`hidden md:flex fixed left-1/2 transform -translate-x-1/2 transition-all duration-500 z-1
           ${
             isScrolled
-              ? "px-6 py-4 top-6 w-full max-w-[800px] bg-[hsla(0,0%,60%,0.30)] backdrop-blur-md rounded-2xl shadow-lg"
+              ? "px-6 py-4 top-6 w-full max-w-[800px] bg-[hsla(0,0%,80%,0.25)] backdrop-blur-xl rounded-2xl shadow-lg"
               : "w-full max-w-[1440px] px-10 py-8 top-0 bg-transparent"
           }`}
       >
@@ -67,8 +67,8 @@ export default function Header() {
                 className={`relative px-[1.5rem] py-[0.5rem] transition-all duration-300 rounded-xl 
                   flex items-center space-x-2 ${
                     activeSection === item.name
-                      ? "bg-[hsla(0,0%,100%,0.25)] backdrop-blur-sm font-semibold"
-                      : "hover:bg-[hsla(0,0%,100%,0.15)] hover:backdrop-blur-sm"
+                      ? "bg-[hsla(0,0%,80%,0.5)] backdrop-blur-2xl font-semibold"
+                      : "hover:bg-[hsla(0,0%,80%,0.5)] hover:backdrop-blur-sm"
                   }`}
               >
                 <span>{item.name}</span>
